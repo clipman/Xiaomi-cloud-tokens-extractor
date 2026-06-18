@@ -845,6 +845,12 @@ def main() -> None:
     if logged:
         print_if_interactive(f"{Fore.GREEN}Logged in.")
         print_if_interactive()
+        print_if_interactive(f"{Fore.CYAN}{'='*50}")
+        print_if_interactive(f"{Fore.YELLOW}userId:      {Style.RESET_ALL}{connector.userId}")
+        print_if_interactive(f"{Fore.YELLOW}ssecurity:   {Style.RESET_ALL}{connector._ssecurity}")
+        print_if_interactive(f"{Fore.YELLOW}serviceToken:{Style.RESET_ALL}{connector._serviceToken}")
+        print_if_interactive(f"{Fore.CYAN}{'='*50}")
+        print_if_interactive()
         servers_to_check = get_servers_to_check()
         print_if_interactive()
         output = []
