@@ -20,7 +20,7 @@ After logging in you have to select a Xiaomi's server region (`cn` - China, `de`
 In return all of your devices connected to account will be listed, together with their name and IP address.
 
 ## Windows
-Download and run [token_extractor.exe](https://github.com/clipman/Xiaomi-cloud-tokens-extractor/releases/latest/download/token_extractor.exe).
+Download and run [token_extractor.exe](https://github.com/clipman/Xiaomi-cloud-tokens-extractor/releases/download/latest/token_extractor.exe).
 
 ## Linux & Home Assistant (in [SSH & Web Terminal](https://github.com/hassio-addons/addon-ssh))
 
